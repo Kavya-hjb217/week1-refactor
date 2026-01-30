@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Essentials */
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+
+    /* Core Strictness (Required for your project) */
+    "strict": true,                /* Ensures no 'any' and proper null checks */
+    "skipLibCheck": true,          /* Speeds up compilation */
+    "esModuleInterop": true,       /* Compatibility for imports */
+    
+    /* Clean Code Support */
+    "sourceMap": true,
+    "declaration": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
+}
