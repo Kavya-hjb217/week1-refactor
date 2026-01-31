@@ -27,11 +27,11 @@ export function isValidEmail(email: string): boolean {
 
 //ensure age is within acceptable range
 export function isValidAge(age: number): boolean {      
-    return  age >= 0 && age <= 150;
+    return  age >= 0 && age <= 120;
 }
 
 
 export function isValidName(name: string): boolean {
-    const trimmedName = name.trim();
+    const trimmedName = name.trim();//remove spaces from start and end of the name
     return trimmedName.length >= 2 && trimmedName.length <= 60;
 }
