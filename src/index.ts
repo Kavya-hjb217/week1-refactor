@@ -84,3 +84,22 @@ if(newUserResult2.success) {
 } else {
     console.error("Error creating second user:", newUserResult2.error);
 }
+
+
+const newUserResult3 = userRepository.create({
+    name: "Yash Singh",
+    email: "yash.singh@example.com",
+    age: 30
+});
+
+if(newUserResult3.success) {
+    console.log("Third user created successfully:", newUserResult3.data);
+} else {
+    console.error("Error creating third user:", newUserResult3.error);
+}
+
+
+console.log("All users in the repository:");
+for (const user of userRepository.getAll()) {
+    console.log(user);
+} 
