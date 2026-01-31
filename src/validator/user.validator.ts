@@ -27,7 +27,7 @@ export function isValidEmail(email: string): boolean {
 
 //ensure age is within acceptable range
 export function isValidAge(age: number): boolean {      
-    return  age >= 0 && age <= 120;
+    return  age > 0 && age <= 120;
 }
 
 

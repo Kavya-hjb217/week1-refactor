@@ -16,7 +16,7 @@ export function isValidEmail(email) {
 }
 //ensure age is within acceptable range
 export function isValidAge(age) {
-    return age >= 0 && age <= 120;
+    return age > 0 && age <= 120;
 }
 export function isValidName(name) {
     const trimmedName = name.trim(); //remove spaces from start and end of the name
