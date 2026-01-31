@@ -1,0 +1,1 @@
+{"version":3,"file":"result.helpers.js","sourceRoot":"","sources":["../../src/utils/result.helpers.ts"],"names":[],"mappings":"AAEA,+EAA+E;AAC/E,oEAAoE;AAMnE,MAAM,CAAC,MAAM,EAAE,GAAG,CAAI,IAAO,EAAoB,EAAE,CAAC,CAAC;IAClD,OAAO,EAAE,IAAI;IACb,IAAI;CACL,CAAC,CAAC;AAGJ,MAAM,CAAC,MAAM,GAAG,GAAG,CAAI,KAAQ,EAAoB,EAAE,CAAC,CAAC;IACpD,OAAO,EAAE,KAAK,EAAE,KAAK;CAAC,CAAC,CAAC"}
