@@ -72,7 +72,7 @@ export class UserRepository implements IUserRepository {
   }
 
   update(id: string, input: UpdateUserInput): Result<User, UserError> {
-    const existing = this.users.get(id);
+    const existing = this.users.get(id);// get() used for Map and find() for array 
     if (!existing) return err("UserNotFound");
 
     // Immutable update: create a new object
@@ -87,7 +87,7 @@ export class UserRepository implements IUserRepository {
   }
 
   delete(id: string): Result<void, UserError> {
-    if (!this.users.has(id)) return err("UserNotFound");
+    if (!this.users.has(id)) return err("UserNotFound");//has() is a js method to checkexistence of a key in the Map
     this.users.delete(id);//remove the user from the map
     return ok(undefined);
   }

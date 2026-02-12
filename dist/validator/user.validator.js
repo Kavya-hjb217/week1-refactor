@@ -1,6 +1,6 @@
 //validate the user data as it should follow cetain rules and structure
 // before we insert it into the database
-//regex synta explanation
+//regex syntax explanation
 // ^       : Start of string
 // [^\s@]+ : One or more characters (excluding spaces and @)
 // @       : Mandatory literal '@' symbol
